@@ -4,7 +4,7 @@ A schema of Linked Dataset extends schema:Dataset (This has a property contextUr
 
 schema:Dataset を拡張した LinkedDataset　(context.jsonld へのリンク、contextUrlプロパティを持ち、CSVファイルをLinkedDataにする)
 
-## difinition
+## definition
 
 - [LinkedDataset.jsonld](LinkedDataset.jsonld)
 
