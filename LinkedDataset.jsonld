@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "ld": "https://code4fukui.github.io/LinkedDataset/#",
+    "schema": "https://schema.org/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@graph": [
+    {
+      "@id": "ld:LinkedDataset",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "A linked dataset.",
+      "rdfs:label": "LinkedDataset",
+      "rdfs:subClassOf": {
+        "@id": "schema:Dataset"
+      }
+    },
+    {
+      "@id": "schema:contextUrl",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A JSON-LD URL as context.",
+      "rdfs:label": "contextUrl",
+      "schema:domainIncludes": {
+        "@id": "ld:LinkedDataset"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:URL"
+      }
+    }
+  ]
+}
