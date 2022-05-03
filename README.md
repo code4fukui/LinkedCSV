@@ -15,3 +15,20 @@ context.jsonld へのリンク URL
 ## web
 
 https://code4fukui.github.io/CSV/
+
+## sample
+
+- [event-latest.csv.jsonld](https://code4fukui.github.io/event-japan/data-latest/event-latest.csv.jsonld)
+
+ベース・レジストリ データカタログのイベントをLinkedCSVに変換したもの
+
+```json
+{
+  "@context": "https://code4fukui.github.io/LinkedDataset/LinkedDataset.jsonld",
+  "@type": "ld:LinkedDataset",
+  "ld:contextUrl": "event-schema.jsonld",
+  "schema:distribution": {
+    "schema:url": "event-latest.csv"
+  }
+}
+```
