@@ -10,8 +10,8 @@
     {
       "@id": "LinkedCSV:LinkedCSV",
       "@type": "rdfs:Class",
-      "rdfs:comment": "A linked dataset.",
-      "rdfs:label": "LinkedDataset",
+      "rdfs:comment": "A linked dataset in CSV.",
+      "rdfs:label": "LinkedCSV",
       "rdfs:subClassOf": {
         "@id": "schema:Dataset"
       }
