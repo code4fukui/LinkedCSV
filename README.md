@@ -18,13 +18,13 @@ https://code4fukui.github.io/CSV/
 
 ## sample
 
-ベース・レジストリ データカタログのイベントをLinkedCSVに変換したもの
+ベース・レジストリ データカタログの開催予定イベントをLinkedCSVで提供するもの
 
 ```json
 {
-  "@context": "https://code4fukui.github.io/LinkedDataset/LinkedDataset.jsonld",
-  "@type": "ld:LinkedDataset",
-  "ld:contextUrl": "event-schema.jsonld",
+  "@context": "https://code4fukui.github.io/LinkedCSV/LinkedCSV.jsonld",
+  "@type": "LinkedCSV:LinkedCSV",
+  "LinkedCSV:contextUrl": "event-schema.jsonld",
   "schema:distribution": {
     "schema:url": "event-latest.csv"
   }
