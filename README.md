@@ -7,3 +7,7 @@ schema:Dataset を拡張した LinkedDataset　(context.jsonld へのリンク�
 ## difinition
 
 - [LinkedDataset.jsonld](LinkedDataset.jsonld)
+
+## web
+
+https://code4fukui.github.io/LinkedDataset/
