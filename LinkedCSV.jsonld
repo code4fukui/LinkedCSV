@@ -1,6 +1,6 @@
 {
   "@context": {
-    "ld": "https://code4fukui.github.io/LinkedDataset/#",
+    "LinkedCSV": "https://code4fukui.github.io/LinkedCSV/#",
     "schema": "https://schema.org/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "owl": "http://www.w3.org/2002/07/owl#",
@@ -8,7 +8,7 @@
   },
   "@graph": [
     {
-      "@id": "ld:LinkedDataset",
+      "@id": "LinkedCSV:LinkedCSV",
       "@type": "rdfs:Class",
       "rdfs:comment": "A linked dataset.",
       "rdfs:label": "LinkedDataset",
@@ -17,12 +17,12 @@
       }
     },
     {
-      "@id": "ld:contextUrl",
+      "@id": "LinkedCSV:contextUrl",
       "@type": "rdf:Property",
       "rdfs:comment": "A JSON-LD URL as context.",
       "rdfs:label": "contextUrl",
       "schema:domainIncludes": {
-        "@id": "ld:LinkedDataset"
+        "@id": "LinkedCSV:LinkedCSV"
       },
       "schema:rangeIncludes": {
         "@id": "schema:URL"
