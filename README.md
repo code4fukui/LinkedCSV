@@ -4,9 +4,13 @@ A schema of Linked Dataset extends [schema:Dataset](https://schema.org/Dataset) 
 
 [schema:Dataset](https://schema.org/Dataset) を拡張した LinkedDataset　(context.jsonld へのリンク、contextUrlプロパティを持ち、CSVファイルをLinkedDataにする)
 
-## definition
-
 - [LinkedDataset.jsonld](LinkedDataset.jsonld)
+
+## contextUrl
+
+URL for context.jsonld for CSV as a linked data file
+
+context.jsonld へのリンク URL
 
 ## web
 
