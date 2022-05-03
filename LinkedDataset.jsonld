@@ -17,7 +17,7 @@
       }
     },
     {
-      "@id": "schema:contextUrl",
+      "@id": "ld:contextUrl",
       "@type": "rdf:Property",
       "rdfs:comment": "A JSON-LD URL as context.",
       "rdfs:label": "contextUrl",
