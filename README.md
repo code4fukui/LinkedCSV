@@ -18,9 +18,7 @@ https://code4fukui.github.io/CSV/
 
 ## sample
 
-- [event-latest.csv.jsonld](https://code4fukui.github.io/event-japan/data-latest/event-latest.csv.jsonld)
-
-ベース・レジストリ データカタログのイベントをLinkedCSVに変換したもの
+- https://code4fukui.github.io/event-japan/data-latest/event-latest.csv.jsonld
 
 ```json
 {
@@ -32,3 +30,5 @@ https://code4fukui.github.io/CSV/
   }
 }
 ```
+
+ベース・レジストリ データカタログのイベントをLinkedCSVに変換したもの
